@@ -1,0 +1,57 @@
+table
+{
+    border: 1px solid black;
+    position: relative;
+    bottom: 35%;
+    left: 3%;
+}
+
+td{
+    padding: 15px;
+}
+
+tr
+{
+    border: 1px solid black;
+}
+
+.text
+{
+    text-align: center;
+}
+
+th
+{
+    border: 1px solid black;
+}
+.gameWrapper
+{
+    max-width: 350px;
+    position: relative;
+    left: 38.6%;
+    top:30%;
+    border: 2px solid black;
+    padding: 20px;
+    top: 20px;
+    border-radius: 25px;
+}
+
+#wheelOne, #wheelTwo, #wheelThree
+{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    
+}
+.wheel
+{
+    border: 1px solid black;
+    left: 25px;
+    position: relative;
+}
+
+#spin, #reset
+{
+    position: relative;
+    left: 89px;
+}

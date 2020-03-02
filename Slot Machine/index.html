@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Slot Machine</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script type="text/javascript" src="script/app.js"></script>
+    </head>
+<body onload="onload()"></body>
+
+    <h1 class="jumbotron" style="text-align:center;">Slot Machine</h1>
+        <div class="gameWrapper">
+            <div class="wheels">
+                <div style="display: inline-block" class="wheel"><img src="images/empty.png" id="wheelOne"></img></div>
+                <div style="display: inline-block" class="wheel"><img src="images/empty.png" id="wheelTwo"></img></div>
+                <div style="display: inline-block" class="wheel"><img src="images/empty.png" id="wheelThree"></img></div>
+            </div>
+            <br><button onclick="spin();" id="spin">Spin</button>
+            <button onclick="reset();" id="reset">Restart</button><br>
+            <br><p id="msg" style="position: relative; left: 106px;"></p>
+            <p style="position: relative; left: 104px;"id="score"></p>
+        </div>
+    <table>
+        <tr>
+            <th class="text">Rules</th>
+        </tr>
+       <tr>
+        <td>Coke, Crush, Sprite</td><br>
+        <th>+25</th>
+      </tr>
+      <tr>
+        <td>Sprite, Coke, Crush</td>
+        <th>+35</th>
+    </tr>
+    <tr>
+        <td>Sprite, Crush, Coke</td>
+        <th>+50</th>
+    </tr>
+    <tr>
+        <td>Sprite, Sprite, Crush</td>
+        <th>+80</th>
+    </tr>
+    <tr>
+        <td>Coke, Coke, Coke</td>
+        <th>+110</th>
+    </tr>
+    <tr>
+        <td>Crush, Crush, Crush</td>
+        <th>+130</th>
+    </tr>
+    <tr>
+        <td>Sprite, Sprite, Sprite</td>
+        <th>+200</th>
+    </tr>
+    <tr>
+        <td>None?</td>
+        <th>-50</th>
+    </tr>
+    </table>
+
+</body> 
+</html>
